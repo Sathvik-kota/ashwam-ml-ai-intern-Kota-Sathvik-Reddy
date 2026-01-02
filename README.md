@@ -268,6 +268,36 @@ The goal of this visualization is **risk visibility**, not performance optimizat
 - Optimized for **worst-case safety**, not average performance
 
 ---
+## Code Structure & How to Run
+
+The implementation is intentionally simple and mirrors the conceptual pipeline described above.
+
+### Code Structure
+
+- `matcher.py`  
+  Implements the deterministic matching logic that aligns semantic objects across three runs using evidence span overlap as the primary signal.
+
+- `metrics.py`  
+  Computes stability metrics such as agreement rate, polarity flip rate, and bucket drift rate based on matched objects.
+
+- `report.py`  
+  Aggregates per-journal metrics into a concise stability report.
+
+- `stable_output.py`  
+  (Bonus) Builds a conservative final output using majority agreement, and explicitly marks items as uncertain or abstains when disagreements are detected.
+
+- `data/`  
+  Contains the provided journals and LLM run outputs (three runs per journal).
+
+### How to Run
+
+The code is designed to run locally or in a notebook environment (e.g., Google Colab).
+
+From the repository root:
+
+```bash
+python run_analysis.py
+---
 
 ## Limitations & Future Work
 
