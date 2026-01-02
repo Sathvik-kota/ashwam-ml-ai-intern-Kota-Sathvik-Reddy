@@ -1,6 +1,6 @@
 from matcher import match_three_runs
 from metrics import agreement_rate, polarity_flip_rate, bucket_drift_rate
-from stable_output import build_stable_output
+
 
 
 def generate_report(run1, run2, run3):
@@ -17,9 +17,4 @@ def generate_report(run1, run2, run3):
 
 
 
-stable_output = build_stable_output(groups)
 
-final = {
-    "metrics": report,
-    "stable_output": stable_output
-}
