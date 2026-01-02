@@ -4,13 +4,10 @@
 Ashwam processes free-form women’s health journals that include symptoms, food, emotions, and mental states.
 These journals are inherently subjective and variable:
 
-Mood and emotions fluctuate daily
-
-Symptoms can appear, disappear, or be ambiguously described
-
-Hormonal cycles, stress, sleep, and context all influence expression
-
-There are no canonical labels and no single “ground truth”
+- Mood and emotions fluctuate daily
+- Symptoms can appear, disappear, or be ambiguously described
+- Hormonal cycles, stress, sleep, and context all influence expression
+- There are no canonical labels and no single “ground truth”
 
 In this setting, LLM non-determinism is expected, but unsafe variance is not acceptable.
 The goal of this exercise is not to maximize recall, but to ensure that no user-facing insight is produced unless it is stable and safe across runs.
