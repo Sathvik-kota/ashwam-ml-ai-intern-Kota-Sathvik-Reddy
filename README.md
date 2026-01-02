@@ -23,23 +23,20 @@ I built a run-to-run stability framework that:
 
 The system is designed to surface risk, not hide it.
 
-1. Formal Definition of “Stability”
+## Task 1. Formal Definition of “Stability” 
 
 Two outputs are considered the same semantic object if:
 
-They belong to the same domain (symptom / food / emotion / mind)
+- They belong to the same domain (symptom / food / emotion / mind)
+- They reference overlapping or identical evidence spans in the journal text
 
-They reference overlapping or identical evidence spans in the journal text
-
-Fields that MUST be stable
+### Fields that MUST be stable
 
 These are safety-critical:
 
-Polarity (present ↔ absent)
-
-Domain (emotion vs symptom, etc.)
-
-Evidence grounding
+- Polarity (present ↔ absent)
+- Domain (emotion vs symptom, etc.)
+- Evidence grounding
 
 Any disagreement here is treated as a hard safety violation.
 
