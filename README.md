@@ -185,7 +185,8 @@ Therefore, polarity disagreement is treated as a **hard stop**, not averaged awa
 
 ## Task 5: Production Implications
 In a women’s health product, unstable outputs can result in emotionally misaligned nudges — for example, offering calming advice when a user is explicitly distressed, or dismissing symptoms during menstruation or sleep deprivation.
-This framework prevents such outcomes by abstaining when stability cannot be guaranteed, prioritizing safety and trust over completeness
+
+This framework prevents such outcomes by abstaining when stability cannot be guaranteed, prioritizing safety and trust over completeness.
 ### Downstream Nudges
 
 If instability is not controlled, users may receive:
