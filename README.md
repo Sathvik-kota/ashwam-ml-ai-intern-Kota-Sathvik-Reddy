@@ -1,5 +1,5 @@
-Run-to-Run Variance & Stability Analysis (Exercise B)
-Context & Motivation
+# Run-to-Run Variance & Stability Analysis (Exercise B)
+## Context & Motivation
 
 Ashwam processes free-form women’s health journals that include symptoms, food, emotions, and mental states.
 These journals are inherently subjective and variable:
