@@ -110,7 +110,7 @@ I intentionally avoided embeddings or probabilistic matchers to keep the system:
 
 For each journal (3 runs), the system computes:
 
-### 1️⃣ Agreement Rate
+### - Agreement Rate
 Fraction of semantic objects that consistently appear across runs.
 
 **What it tells us:**  
@@ -118,7 +118,7 @@ How stable the extraction is overall.
 
 ---
 
-### 2️⃣ Polarity Flip Rate (**High-Risk Metric**)
+### - Polarity Flip Rate (**High-Risk Metric**)
 Percentage of objects whose polarity changes across runs.
 
 Example:
@@ -129,7 +129,7 @@ This is treated as **critical**, even if rare.
 
 ---
 
-### 3️⃣ Bucket Drift Rate
+### - Bucket Drift Rate
 Changes in:
 - Intensity
 - Arousal (for emotions)
