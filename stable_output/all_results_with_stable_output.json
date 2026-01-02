@@ -1,0 +1,230 @@
+[
+  {
+    "journal_id": "B001",
+    "metrics": {
+      "agreement_rate": 0.8,
+      "polarity_flip_rate": 0.0,
+      "bucket_drift_rate": 0.6,
+      "total_objects": 5
+    },
+    "stable_output": [
+      {
+        "domain": "symptom",
+        "evidence_span": "dull headache behind my eyes",
+        "polarity": "present",
+        "intensity_bucket": "medium",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "food",
+        "evidence_span": "masala chai with 2 tsp sugar",
+        "polarity": "present",
+        "intensity_bucket": "unknown",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "food",
+        "evidence_span": "Lunch was rice + dal + achar",
+        "polarity": "present",
+        "intensity_bucket": "unknown",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "emotion",
+        "evidence_span": "a bit edgy, snapping at people for no reason",
+        "polarity": "present",
+        "intensity_bucket": "high",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "mind",
+        "evidence_span": "mind felt scattered\u2014kept forgetting what I opened the laptop for",
+        "polarity": "present",
+        "intensity_bucket": "medium",
+        "time_bucket": "today"
+      }
+    ]
+  },
+  {
+    "journal_id": "B002",
+    "metrics": {
+      "agreement_rate": 1.0,
+      "polarity_flip_rate": 0.2,
+      "bucket_drift_rate": 0.6,
+      "total_objects": 5
+    },
+    "stable_output": [
+      {
+        "domain": "mind",
+        "evidence_span": "3am ko uthi, phir 30 min tak aankh hi nahi lagi",
+        "polarity": "present",
+        "intensity_bucket": "medium",
+        "time_bucket": "last_night"
+      },
+      {
+        "domain": "food",
+        "evidence_span": "coffee pi and skipped breakfast",
+        "polarity": "present",
+        "intensity_bucket": "unknown",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "emotion",
+        "evidence_span": "Feeling anxious in chest",
+        "polarity": "present",
+        "intensity_bucket": "high",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "symptom",
+        "evidence_span": "like tightness",
+        "polarity": "uncertain",
+        "reason": "polarity disagreement across runs"
+      },
+      {
+        "domain": "symptom",
+        "evidence_span": "No cramps today though",
+        "polarity": "absent",
+        "intensity_bucket": "unknown",
+        "time_bucket": "today"
+      }
+    ]
+  },
+  {
+    "journal_id": "B003",
+    "metrics": {
+      "agreement_rate": 0.8,
+      "polarity_flip_rate": 0.0,
+      "bucket_drift_rate": 0.8,
+      "total_objects": 5
+    },
+    "stable_output": [
+      {
+        "domain": "food",
+        "evidence_span": "Dinner: paneer bhurji + 2 rotis",
+        "polarity": "present",
+        "intensity_bucket": "unknown",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "symptom",
+        "evidence_span": "I got super sleepy",
+        "polarity": "present",
+        "intensity_bucket": "high",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "symptom",
+        "evidence_span": "stomach felt bloated",
+        "polarity": "present",
+        "intensity_bucket": "medium",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "emotion",
+        "evidence_span": "felt calm and grateful",
+        "polarity": "present",
+        "intensity_bucket": "low",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "mind",
+        "evidence_span": "Brain felt clear, focused while reading",
+        "polarity": "present",
+        "intensity_bucket": "low",
+        "time_bucket": "today"
+      }
+    ]
+  },
+  {
+    "journal_id": "B004",
+    "metrics": {
+      "agreement_rate": 1.0,
+      "polarity_flip_rate": 0.2,
+      "bucket_drift_rate": 0.8,
+      "total_objects": 5
+    },
+    "stable_output": [
+      {
+        "domain": "food",
+        "evidence_span": "oats with banana and walnuts",
+        "polarity": "present",
+        "intensity_bucket": "unknown",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "symptom",
+        "evidence_span": "mild joint soreness in my knees",
+        "polarity": "present",
+        "intensity_bucket": "low",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "mind",
+        "evidence_span": "ruminating about work; couldn't stop replaying a conversation",
+        "polarity": "present",
+        "intensity_bucket": "high",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "symptom",
+        "evidence_span": "Felt low-energy",
+        "polarity": "present",
+        "intensity_bucket": "medium",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "emotion",
+        "evidence_span": "but not sad",
+        "polarity": "uncertain",
+        "reason": "polarity disagreement across runs"
+      }
+    ]
+  },
+  {
+    "journal_id": "B005",
+    "metrics": {
+      "agreement_rate": 0.8,
+      "polarity_flip_rate": 0.0,
+      "bucket_drift_rate": 0.8,
+      "total_objects": 5
+    },
+    "stable_output": [
+      {
+        "domain": "food",
+        "evidence_span": "ate biryani (small bowl) + raita",
+        "polarity": "present",
+        "intensity_bucket": "unknown",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "symptom",
+        "evidence_span": "Felt heartburn after that",
+        "polarity": "present",
+        "intensity_bucket": "medium",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "symptom",
+        "evidence_span": "a slight nausea",
+        "polarity": "present",
+        "intensity_bucket": "low",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "emotion",
+        "evidence_span": "irritated + impatient",
+        "polarity": "present",
+        "intensity_bucket": "high",
+        "time_bucket": "today"
+      },
+      {
+        "domain": "mind",
+        "evidence_span": "racing thoughts at night",
+        "polarity": "present",
+        "intensity_bucket": "high",
+        "time_bucket": "last_night"
+      }
+    ]
+  }
+]
