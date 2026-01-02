@@ -1,7 +1,9 @@
 # Run-to-Run Variance & Stability Analysis (Exercise B)
 
 ## Context & Motivation
-
+In women’s health, incorrect interpretation can be actively harmful.
+For example, misclassifying anxiety as “absent” during a high-stress or hormonal phase, or flipping emotional polarity across runs, can invalidate lived experience and erode trust.
+Because these journals may influence self-reflection, nudges, or clinician conversations, stability and restraint matter more than recall.
 Ashwam works with free-form women’s health journals. These journals are not clean datasets — they are human.
 
 A single journal entry can include:
@@ -180,7 +182,8 @@ Therefore, polarity disagreement is treated as a **hard stop**, not averaged awa
 ---
 
 ## Task 5: Production Implications
-
+In a women’s health product, unstable outputs can result in emotionally misaligned nudges — for example, offering calming advice when a user is explicitly distressed, or dismissing symptoms during menstruation or sleep deprivation.
+This framework prevents such outcomes by abstaining when stability cannot be guaranteed, prioritizing safety and trust over completeness
 ### Downstream Nudges
 
 If instability is not controlled, users may receive:
