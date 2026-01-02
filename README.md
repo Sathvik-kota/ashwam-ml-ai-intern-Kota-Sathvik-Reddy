@@ -12,17 +12,14 @@ These journals are inherently subjective and variable:
 In this setting, LLM non-determinism is expected, but unsafe variance is not acceptable.
 The goal of this exercise is not to maximize recall, but to ensure that no user-facing insight is produced unless it is stable and safe across runs.
 
-What I Built (High-Level)
+## What I Built (High-Level)
 
 I built a run-to-run stability framework that:
 
-Deterministically aligns extracted semantic objects across 3 LLM runs
-
-Quantifies instability using safety-relevant metrics
-
-Explicitly detects high-risk variance (e.g. polarity flips)
-
-Produces a conservative stable final output via majority agreement and abstention
+1. Deterministically aligns extracted semantic objects across 3 LLM runs
+2. Quantifies instability using safety-relevant metrics
+3. Explicitly detects high-risk variance (e.g. polarity flips)
+4. Produces a conservative stable final output via majority agreement and abstention
 
 The system is designed to surface risk, not hide it.
 
